@@ -63,18 +63,23 @@ button.new-post-btn {
     font-size: 40px;
     font-weight: 600;
 }
+.output-content__date-today {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #0094FF;
+}
 .post__output-content {
     margin-bottom: 50px;
     max-width: 400px;
 }
-h3.output-content__title {
+.output-content__title {
     margin-bottom: 10px;
     font-size: 32px;
     font-weight: 600;
     overflow: hidden;
     word-break: break-all;
 }
-p.output-content__text {
+.output-content__text {
     overflow: hidden;
     word-break: break-all;
     font-size: 22px;
