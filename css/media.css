@@ -1,0 +1,121 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 950px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1000px) {
+    .container {
+        width: 750px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 750px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .blog-inner {
+        margin-top: 100px;
+        display: flex;
+    }
+    .post__inputs {
+        padding: 10px;
+        max-width: fit-content;
+    }
+}
+@media (max-width: 600px) {
+    .post__inputs {
+        padding: 0;
+        max-width: 500px;
+    }
+    .post__output {
+        padding: 0px;
+        width: 200px;
+    }
+    .post__title h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .post__output-title h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .input-content__title {
+        max-width: 200px;
+    }
+    .input-content__text {
+        max-width: 200px;
+        height: 250px;
+    }
+    button.new-post-btn {
+        padding: 10px 0;
+        width: 200px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 450px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .blog-inner {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .post__inputs {
+        margin-bottom: 20px;
+        padding: 0;
+        width: 100%;
+    }
+    .post__title {
+        margin-bottom: 30px;
+    }
+    .post__title h2 {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .input-content__title {
+        min-width: 100%;
+    }
+    .input-content__text {
+        min-width: 100%;
+        height: 250px;
+    }
+    .post__output-title h2 {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+    }
+    button.new-post-btn {
+        padding: 10px 0;
+        min-width: 100%;
+        font-size: 24px;
+    }
+    .post__output {
+        padding: 0px;
+        width: 100%;
+    }
+    .post__output-title {
+        margin-bottom: 60px;
+        min-width: 100%;
+    } 
+    .post__output-content {
+        margin-bottom: 30px;
+        min-width: 100%;
+    }
+}
