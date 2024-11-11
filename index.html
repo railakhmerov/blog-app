@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>my blog app</title>
+</head>
+<body>
+	<section class="blog">
+		<div class="container">
+			<div class="blog-inner">
+				<div class="post__inputs">
+					<div class="post__title">
+						<h2>Новый пост</h2>
+					</div>
+					<form action="#" class="post__inputs">
+						<div class="post__input post__input-title">
+							<input
+							class="input-content__title js-input-content__title"
+							type="text"
+							autocomplete="on"
+							placeholder="Заголовок">
+						</div>
+						<div class="post__input post__input-text">
+							<textarea
+							class="input-content__text js-input-content__text"
+							placeholder="Напиши пост"
+							></textarea>
+						</div>
+						<div class="post__btn">
+							<button class="new-post-btn" type="button">
+								Опубликовать
+							</button>
+						</div>
+					</form>
+				</div>
+				<div class="post__output">
+					<div class="post__output-title">
+						<h2>Лента</h2>
+					</div>
+					<div class="post__output-content">
+						<h3 class="output-content__title js-output-content__title"></h3>
+						<p class="output-content__text js-output-content__text"></p>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/index.js"></script>
+</body>
+</html>

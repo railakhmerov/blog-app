@@ -1,0 +1,81 @@
+button {
+    cursor: pointer;
+}
+.blog {
+}
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+.blog-inner {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.post__inputs {
+    padding: 10px;
+    width: 500px;
+}
+.post__input {
+    margin-right: 50px;
+}
+.post__title {
+    margin-bottom: 60px;
+}
+.post__title h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+form.post__inputs {
+}
+.post__input-title {
+    margin-bottom: 20px;
+}
+.input-content__title {
+    font-size: 24px;
+}
+.post__input-text {
+    margin-bottom: 30px;
+}
+.input-content__text {
+    height: 250px;
+    width: 300px;
+    font-size: 24px;
+}
+.post__btn {}
+button.new-post-btn {
+    padding: 10px 0;
+    width: 300px;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    background-color: #0094FF;
+}
+.post__output {
+    padding: 10px;
+    width: 500px;
+}
+.post__output-title {
+    margin-bottom: 60px;
+    max-width: 300px;
+}
+.post__output-title h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.post__output-content {
+    margin-bottom: 50px;
+    max-width: 400px;
+}
+h3.output-content__title {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    overflow: hidden;
+    word-break: break-all;
+}
+p.output-content__text {
+    overflow: hidden;
+    word-break: break-all;
+    font-size: 22px;
+}
