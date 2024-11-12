@@ -41,8 +41,12 @@ form.post__inputs {
     height: 250px;
     font-size: 24px;
 }
-.post__btn {}
+.post__btn {
+    margin-bottom: 10px;
+}
 button.new-post-btn {
+}
+.post__inputs-btn {
     padding: 10px 0;
     width: 300px;
     border: none;
@@ -50,6 +54,33 @@ button.new-post-btn {
     color: #fff;
     background-color: #0094FF;
 }
+.check-for-empty-input {
+    padding: 10px 0;
+    width: 300px;
+    cursor: not-allowed;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    background-color: #afafaf;
+}
+
+
+.post__title-letters-limit-message { 
+    font-size: 20px;
+    color: #FF0000;
+}
+.post__title-letters-limit-message__hidden {
+    display: none;
+}
+.post__text-letters-limit-message {
+    font-size: 20px;
+    color: #FF0000;
+}
+.post__text-letters-limit-message__hidden {
+    display: none;
+}
+
+
 .post__output {
     padding: 10px;
     width: 500px;

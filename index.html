@@ -16,9 +16,9 @@
 					<div class="post__title">
 						<h2>Новый пост</h2>
 					</div>
-					<form action="#" class="post__inputs">
+					<form action="#" class="post__inputs js-post__inputs">
 						<div class="post__input post__input-title">
-							<input
+							<input 
 							class="input-content__title js-input-content__title"
 							type="text"
 							autocomplete="on"
@@ -31,9 +31,18 @@
 							></textarea>
 						</div>
 						<div class="post__btn">
-							<button class="new-post-btn" type="button">
+							<!-- <button class="new-post-btn check-for-empty-input" type="button">
+								Опубликовать
+							</button> -->
+							<button class="new-post-btn check-for-empty-input" type="button">
 								Опубликовать
 							</button>
+						</div>
+						<div class="post__title-letters-limit-message post__title-letters-limit-message__hidden js-post__title-letters-limit-message">
+							<p class="letters-limit-message">Заголовок больше 100 символов</p>
+						</div>
+						<div class="post__text-letters-limit-message post__text-letters-limit-message__hidden js-post__text-letters-limit-message">
+							<p class="letters-limit-message">Пост больше 200 символов</p>
 						</div>
 					</form>
 				</div>
@@ -50,7 +59,6 @@
 			</div>
 		</div>
 	</section>
-
 	<script src="js/index.js"></script>
 </body>
 </html>
