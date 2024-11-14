@@ -13,15 +13,6 @@ const postOutputContentNode = document.querySelector('.post__output-content');
 const postTitleLettersLimitMessage = document.querySelector('.js-post__title-letters-limit-message');
 const postTextLettersLimitMessage = document.querySelector('.js-post__text-letters-limit-message');
 
-// function reloadPage() { // перезагрузка тега form, для отслеживания актуальной инфы в input
-//     setInterval(() => {
-//         document.querySelector('.js-post__inputs');
-//         console.log('page reload');
-//     }, 1000);
-// }
-// reloadPage();
-
-
 newPostBtnNode.addEventListener('click', function() {
     const postFromUser = getPostFromUser();
     addPost(postFromUser);
@@ -80,7 +71,11 @@ function getPostFromUser() {
 };
 
 function addPost({ title, text }) {
+    const currentDate = new Date();
+    const formattedDate = currentDate.toLocaleString();
+
     posts.push({
+        formattedDate: formattedDate,
         title: title,
         text: text,
     });
@@ -98,7 +93,7 @@ function displayPosts() {
     posts.forEach(post => {
         postsHTML += `
         <div class="post__output-content">
-			<p class="output-content__date-today js-output-content__date-today"></p>
+			<p class="output-content__date-today js-output-content__date-today">${ post.formattedDate }</p>
             <h3 class="output-content__title js-output-content__title">${ post.title }</h3>
             <p class="output-content__text js-output-content__text">${ post.text }</p>
         </div>
