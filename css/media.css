@@ -44,11 +44,11 @@
         width: 200px;
     }
     .post__title h2 {
-        font-size: 35px;
+        font-size: 32px;
         font-weight: 600;
     }
     .post__output-title h2 {
-        font-size: 35px;
+        font-size: 32px;
         font-weight: 600;
     }
     .input-content__title {
@@ -63,11 +63,14 @@
         width: 200px;
         font-size: 24px;
     }
+    .post__inputs-btn {
+       width: 200px;   
+    }
 }
 @media (max-width: 450px) {
     .container {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         width: 100%;
         margin: 0 auto;
     }
@@ -103,8 +106,11 @@
     }
     button.new-post-btn {
         padding: 10px 0;
-        min-width: 100%;
+        width: 100%;
         font-size: 24px;
+    }
+    .post__inputs-btn {
+        width: 100%;
     }
     .post__output {
         padding: 0px;
